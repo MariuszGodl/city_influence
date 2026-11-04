@@ -1,11 +1,9 @@
-# Przypisanie miejscowości do metropolii (Polars)
+# Przypisanie miejscowości do metropolii
 
-Wybieram zamieszkane miejscowości z GeoNames, wyznaczam metropolie i przypisuję do nich miejscowości według wzoru z zadania ([task.md](task.md)). Odległość liczę na dwa sposoby:
+Wybieram zamieszkane miejscowości z GeoNames, wyznaczam metropolie i przypisuję do nich miejscowości. Odległość liczę na dwa sposoby:
 
 - **linia prosta** (km),
 - **czas dojazdu po drogach** z OpenStreetMap (min).
-
-Założenia i ograniczenia: [notes.md](notes.md).
 
 ## Uruchomienie
 
