@@ -1,3 +1,4 @@
 data/osm/*.osm.pbf filter=lfs diff=lfs merge=lfs -text
 output/**/*.parquet filter=lfs diff=lfs merge=lfs -text
 data/*/[A-Z][A-Z].txt filter=lfs diff=lfs merge=lfs -text
+output/**/*.png filter=lfs diff=lfs merge=lfs -text
