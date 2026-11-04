@@ -20,6 +20,14 @@ Dane wejściowe:
 - `data/<KRAJ>/<KRAJ>.txt` z http://download.geonames.org/export/dump/
 - `data/osm/<kraj>-latest.osm.pbf` z https://download.geofabrik.de/
 
+Pliki OSM nie są w repo (kilka GB). Żeby policzyć wariant z czasem dojazdu po drogach, najpierw je pobierz:
+
+```bash
+.venv/bin/python download_osm.py   # kraje ustawiane w COUNTRIES w download_osm.py
+```
+
+Bez pliku `.osm.pbf` liczony jest tylko wariant w linii prostej. Pierwsze budowanie grafu dróg trwa kilka minut, potem graf jest czytany z `output/<KRAJ>/<KRAJ>_road_*.parquet`.
+
 Wyniki (parquet i mapy PNG) zapisują się w `output/<KRAJ>/`.
 
 ## Wyniki (wersja iteracyjna)
