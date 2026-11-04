@@ -51,3 +51,15 @@ Kolor oznacza metropolię, a szare punkty to miejscowości bez metropolii.
 | Linia prosta (km) | Drogi (min) |
 |---|---|
 | ![AT km](output/AT/AT_metro_ranges_iter.png) | ![AT min](output/AT/AT_metro_ranges_iter_roads.png) |
+
+### Czechy
+
+| Linia prosta (km) | Drogi (min) |
+|---|---|
+| ![CZ km](output/CZ/CZ_metro_ranges_iter.png) | ![CZ min](output/CZ/CZ_metro_ranges_iter_roads.png) |
+
+### Hiszpania
+
+| Linia prosta (km) | Drogi (min) |
+|---|---|
+| ![ES km](output/ES/ES_metro_ranges_iter.png) | ![ES min](output/ES/ES_metro_ranges_iter_roads.png) |
