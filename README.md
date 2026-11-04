@@ -9,7 +9,7 @@ Wybieram zamieszkane miejscowoÅ›ci z GeoNames, wyznaczam metropolie i przypisujÄ
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -r req.txt
-cd task
+cd src
 ../.venv/bin/python main.py   # kraj ustawiany w main.py: main("PL")
 ```
 
